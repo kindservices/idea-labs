@@ -13,6 +13,8 @@ Amazon defines a [data-mesh](https://aws.amazon.com/what-is/data-mesh/) as:
 ...
 ```
 
+If you want to try it out or contribute, start [here](./running.md).
+
 # The Business Case
 
 We're creating an internal-facing web application based on [golden-layout](https://golden-layout.com/):
