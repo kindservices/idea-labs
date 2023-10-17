@@ -24,4 +24,4 @@ We run our labs one-at-a-time with a clear deliverable/finish. If the community 
 The name was taken from Tim Urban's [What's Our Problem](https://waitbutwhy.com/2023/02/wop-contents.html), where Tim defines an "idea lab" as the opposite of an echo chamber -- a place where people are respected, but ideas are to be challenged.
 
 
-[github pages](https://github.com/kindservices/idea-labs) | [repo](https://github.com/kindservices/idea-labs) | [kind services](https://www.kindservices.co.uk)
+[github pages](https://kindservices.github.io/idea-labs/) | [repo](https://github.com/kindservices/idea-labs) | [kind services](https://www.kindservices.co.uk)
