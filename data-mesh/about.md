@@ -1,5 +1,3 @@
-[home](../README.md)
-
 # Data Mesh
 
 This lab was started in October 2023 to showcase a real-tiem analytics platform.

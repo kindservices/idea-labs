@@ -1,4 +1,3 @@
-[home](./README.md)
 # How to Participate
 
 A main component of these labs is just to have fun building things together. We want as low a barrier to entry as possible for people to get into tech and start being productive.

@@ -1,4 +1,3 @@
-[home](./README.md)
 # Getting Started
 
 We want to help as many people as possible get into technology.
@@ -40,5 +39,3 @@ You can find some awesome resources for learning more about kubernetes [here](ht
 With an understanding of [git](https://git-scm.com/) and [docker](https://www.docker.com), next you can read about [how to participate in our labs](how-to-participate.md).
 
 I've you're just getting started in IT and trying to make sense of it all, you might also be interested in ["where do I start?"](where-do-i-start.md)
-
-[home](./README.md)

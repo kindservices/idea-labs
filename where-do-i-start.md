@@ -1,5 +1,3 @@
-[home](./README.md)
-
 # Where Do I Start?
 
 Getting into tech can be a little daunting. There are so many things to learn, and so many disciplines!
