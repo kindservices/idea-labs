@@ -20,9 +20,12 @@ Once running, you should have any empty ArgoCD instance locally:
 You can then clone each separate component, which knows how to install itself using `argocd`:
 
 ```bash
-git clone https://github.com/kindservices/idealab-service-registry.git && cd idealab-service-registry && make installArgo
-git clone https://github.com/kindservices/idealab-dashboard.git && cd idealab-dashboard && make installArgo
-
+git clone https://github.com/kindservices/idealab-service-registry.git && ./idealab-service-registry/install.sh
+git clone https://github.com/kindservices/idealab-dashboard.git && ./idealab-dashboard/install.sh
 ```
 
+
+You should then be able to see the components installin in argo:
+
+Or check them out in the 'data-mesh' namespace using a tool like [k9s](https://k9scli.io/):
 

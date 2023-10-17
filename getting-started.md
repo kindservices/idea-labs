@@ -1,3 +1,4 @@
+[home](./README.md)
 # Getting Started
 
 We want to help as many people as possible get into technology.
@@ -8,7 +9,7 @@ Even still, there are a few fundamentals you'll need if you'd like to participat
 
 # Version Control / Git
 
-"Git" has become the de-facto standard for version control. If you're unfamiliar with version control, you can think of it as a way to easily save a history (or versions) of your work, combined with a managed way to share and coordinate those changes with others.
+"[Git](https://git-scm.com/)" has become the de-facto standard for version control. If you're unfamiliar with version control, you can think of it as a way to easily save a history (or versions) of your work, combined with a managed way to share and coordinate those changes with others.
 
 There are some good user-interfaces to make using version control in general (and git specifically) easier, but it's absolutely worth taking the time to get a solid understanding of this.
 
@@ -18,7 +19,7 @@ You can find some awesome resources for learning git [here](https://github.com/k
 
 Running software consistently can be a lot more complicated than people think. There are different operating systems, environment settings, configurations, software versions, and other factors which make it tough to understand why things can work on one person's computer but not on another.
 
-You can think of docker as a way to bundle all of those things up in a consistent way, so you can treat any application the same.
+You can think of [docker](https://www.docker.com) as a way to bundle all of those things up in a consistent way, so you can treat any application the same.
 
 It's a bit more involved that, but docker is another technology worth getting really familiar with. 
 
@@ -36,4 +37,8 @@ You can find some awesome resources for learning more about kubernetes [here](ht
 
 # What else?
 
-You might also be interested in [where do I start](where-do-i-start.md)
+With an understanding of [git](https://git-scm.com/) and [docker](https://www.docker.com), next you can read about [how to participate in our labs](how-to-participate.md).
+
+I've you're just getting started in IT and trying to make sense of it all, you might also be interested in ["where do I start?"](where-do-i-start.md)
+
+[home](./README.md)
