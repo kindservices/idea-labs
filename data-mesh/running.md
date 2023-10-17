@@ -10,10 +10,19 @@ Our data-mesh is based on kubenetes and ArgoCD.
 
 To get started with those technologies, you can clone our [kindservices/local-kubernetes repo](https://github.com/kindservices/local-kubernetes):
 ```bash
-git clone https://github.com/kindservices/local-kubernetes.git && cd local-kubernetes && make 
+git clone https://github.com/kindservices/local-kubernetes.git && cd local-kubernetes
+
+# install Kind (kubernetes in docker), k9s and argocd
+make install
+
+# port-forward argocd UI to localhost and login so the 'argocd' command works from your command line
+make login
 ```
 
 Once running, you should have any empty ArgoCD instance locally:
+
+![Argo Empty](./argo-empty.png)
+
 
 # Installing the components
 
@@ -25,7 +34,10 @@ git clone https://github.com/kindservices/idealab-dashboard.git && ./idealab-das
 ```
 
 
-You should then be able to see the components installin in argo:
+You should then be able to see the components installing in argo:
+![Argo Installing](./argo-installing.png)
 
 Or check them out in the 'data-mesh' namespace using a tool like [k9s](https://k9scli.io/):
+
+![K9S installed](./k9s-installed.png)
 

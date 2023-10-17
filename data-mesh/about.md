@@ -19,7 +19,7 @@ If you want to try it out or contribute, start [here](./running.md).
 
 We're creating an internal-facing web application based on [golden-layout](https://golden-layout.com/):
 
-![Windowwing](image.png)
+![Windowing](./golden-layout.png)
 
 The idea is that disparate parts of an organisation are interested in different information to do their job effectively.
 
