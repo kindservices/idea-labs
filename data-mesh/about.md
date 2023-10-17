@@ -60,19 +60,19 @@ This has the added benefit of proving a great dev experience to developers, who 
 
 This is a simple REST service for service disovery
 
-The github repo is at [kindservices/idealab-service-registry](https://github.com/kindservices/idealab-service-registry)
+The github repo is at [kindservices/datamesh-service-registry](https://github.com/kindservices/datamesh-service-registry)
 
 
 ### 3. The Dashboard
 
 This the windowing component which knows how to display web components.
 
-The github repo is at [kindservices/idealab-dashboard](https://github.com/kindservices/idealab-dashboard)
+The github repo is at [kindservices/datamesh-dashboard](https://github.com/kindservices/datamesh-dashboard)
 
 
 ### 4. The Widgets Components
 
-The github repo is at [kindservices/idealab-component-svelte](https://github.com/kindservices/idealab-component-svelte)
+The github repo is at [kindservices/datamesh-component-svelte](https://github.com/kindservices/datamesh-component-svelte)
 
 
 We want these widgets to be as close to vanilla web components as possible, without the complexity of having to know about the data-mesh platform.
