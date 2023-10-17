@@ -1,7 +1,7 @@
-# Idea Labs
-The documentation for [Kind](https://www.kindservices.co.uk/) idea-labs, which are perhaps easiest explained as long-running hackathons with a purpose.
+# About
+[Kind](https://www.kindservices.co.uk/)idea-labs are perhaps easiest explained as long-running hackathons with a purpose. We want to help people get into tech with our objective-based learning, as well the amazing contributions of experienced practitioners to help deliver great projects for people to use. 
 
-If you'd like to take part, just get in touch (see [our website](https://www.kindservices.co.uk/)) or simply fire an email over to [contact@kindservices.co.uk](contact@kindservices.co.uk)
+If you'd like to take part, just get in touch (see [our website](https://www.kindservices.co.uk/)) or simply fire an email over to [contact@kindservices.co.uk](contact@kindservices.co.uk) to receive an invite to our daily stand-up. There is no commitment - just people having fun collaborating on great projects!
 
 # Prerequisites
 
