@@ -1,6 +1,6 @@
 # Data Mesh
 
-This lab was started in October 2023 to showcase a real-tiem analytics platform.
+This lab was started in October 2023 to showcase a real-time analytics platform.
 
 It was chosen as it its constituent components are all very reusable, interesting, and deliver value in their own right.
 
@@ -11,15 +11,19 @@ Amazon defines a [data-mesh](https://aws.amazon.com/what-is/data-mesh/) as:
 ...
 ```
 
+# UI Design / Flow
+
+Ultimately this lab produces an analytics dashboard where individual widget components can be quickly created to service disparate users.
+
+To see the user-interface and flow design, see [here](./ui.md)
+
+To understand the constituent components needed to create that UI, you can check out the design document [here](./design.md).
+
+![dashboard](./golden-layout.png)
+
 # Building
 
 If you want to try it out or contribute, start [here](./running.md).
-
-# UI Design / Flow
-
-To see what we're building, see [here](./ui.md)
-
-![dashboard](./golden-layout.png)
 
 # Business Case / Rationale 
 

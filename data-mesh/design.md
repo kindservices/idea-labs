@@ -1,4 +1,3 @@
-
 ## Design
 
 We split this platform into four distinct milestone deliverables:
@@ -8,11 +7,24 @@ We split this platform into four distinct milestone deliverables:
 3. the service registry which supports the dynamic creation of services and service discovery by the dashboard
 4. One or more widget components which can serve up the javasccript/css needed to display their [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
+
 ![Components](components.png)
 
 The internal component flow will be something like this:
 
 ![UI flow](dashboard-flow.png)
+
+## The reasoning behind the different components
+
+You can think of it like this:
+
+We need some software which can serve up the windowing functionality. This is the dashboard.
+
+That dashboard needs to present to the user a choice of what widget content it should put in each frame. For this, it asks the service registry.
+
+We want to be able to create simple widgets for our users to pick from - ideally in whatever framework (vue.js, next.js, svelte, etc) we want. Those are the components, and they'll need to register themselves with the service registry.
+
+For all this software to work, we'll have to package it up (docker containers), and have something which can run those packaged-up docker containers (kubernetes).
 
 
 The individual components which make up this platform are
