@@ -1,3 +1,5 @@
+[github pages](https://kindservices.github.io/idea-labs/) | [repo](https://github.com/kindservices/idea-labs) | [kind services](https://www.kindservices.co.uk)
+
 # About
 [Kind idea labs](https://www.kindservices.co.uk/idea-lab) are essentially open, online, long-running hackathons with a purpose. We want to help people get into tech with our objective-based learning, as well the amazing contributions of experienced practitioners to help deliver great projects for people to use. 
 
