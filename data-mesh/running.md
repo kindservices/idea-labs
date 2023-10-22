@@ -26,7 +26,9 @@ Once running, you should have any empty ArgoCD instance locally:
 
 # Installing the components
 
-You can then clone each separate component, which knows how to install itself using `argocd`:
+You can use the [bootstrap.sh](./bootstrap.sh) script to clone and install each of the different services.
+
+It works because each individual component knows how to install itself using `argocd`:
 
 ```bash
 # if you're using local kubernetes 
