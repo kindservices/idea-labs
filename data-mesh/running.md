@@ -29,6 +29,14 @@ Once running, you should have any empty ArgoCD instance locally:
 You can then clone each separate component, which knows how to install itself using `argocd`:
 
 ```bash
+# if you're using local kubernetes 
+git clone https://github.com/kindservices/local-kubernetes.git 
+pushd ./local-kubernetes
+# if already installed this should just have no effect
+make install
+mke login
+popd
+
 git clone https://github.com/kindservices/datamesh-service-registry.git && ./datamesh-service-registry/install.sh
 git clone https://github.com/kindservices/datamesh-dashboard.git && ./datamesh-dashboard/install.sh
 git clone https://github.com/kindservices/datamesh-component-pinot.git && ./datamesh-component-pinot/install.sh

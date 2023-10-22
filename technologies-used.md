@@ -1,4 +1,4 @@
-# Getting Started
+# Technologies Used
 
 We want to help as many people as possible get into technology.
 
