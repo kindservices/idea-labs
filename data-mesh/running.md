@@ -34,7 +34,7 @@ git clone https://github.com/kindservices/local-kubernetes.git
 pushd ./local-kubernetes
 # if already installed this should just have no effect
 make install
-mke login
+make login
 popd
 
 git clone https://github.com/kindservices/datamesh-service-registry.git && ./datamesh-service-registry/install.sh
@@ -50,3 +50,12 @@ Or check them out in the 'data-mesh' namespace using a tool like [k9s](https://k
 
 ![K9S installed](./k9s-installed.png)
 
+# Cleaning up
+If you want to start over/get stuck, you can wipe-out your kubernetes applications by using:
+```
+# delete all your data-mesh components
+kubectl delete namespace data-mesh
+
+# delete argocd itself
+kubectl delete namespace argocd
+```
