@@ -9,9 +9,9 @@ If you'd like to take part, just get in touch (see [our website](https://www.kin
 
 # Prerequisites
 
-If you'd like to participate in our labs, please check out [getting started](./getting-started.md).
+If you'd like to participate in our labs, please check out the [technologies used](./technologies-used.md).
 
-All participants are expected to adhere to Kind's [code of conduct](https://www.kindservices.co.uk/code-of-conduct)
+Also, everyone participating is expected to adhere to Kind's [code of conduct](https://www.kindservices.co.uk/code-of-conduct)
 
 # Our Labs
 

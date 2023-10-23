@@ -1,9 +1,13 @@
 # Data Mesh
 
-This lab was started in October 2023 to showcase a real-time analytics platform.
+This lab was started in October 2023 to showcase a number of exciting technologies:
+ * real-time analytics platform
+ * a micro front-end and micro-service architecture on kubernetes
+ * a decoupled, decentralised business platform
 
-It was chosen as it its constituent components are all very reusable, interesting, and deliver value in their own right.
+These constituent components and concepts are all very reusable and interesting in their own right. Put together, they showcase a great way to help businesses stay lean and value-focused.
 
+## The term "Data mesh"
 Amazon defines a [data-mesh](https://aws.amazon.com/what-is/data-mesh/) as:
 
 ```
@@ -21,7 +25,7 @@ To understand the constituent components needed to create that UI, you can check
 
 ![dashboard](./golden-layout.png)
 
-# Building
+# Running Locally
 
 If you want to try it out or contribute, start [here](./running.md).
 
