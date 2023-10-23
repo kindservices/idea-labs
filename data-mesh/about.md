@@ -25,7 +25,7 @@ To understand the constituent components needed to create that UI, you can check
 
 ![dashboard](./golden-layout.png)
 
-# Building
+# Running Locally
 
 If you want to try it out or contribute, start [here](./running.md).
 

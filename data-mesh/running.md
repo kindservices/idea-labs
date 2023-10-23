@@ -52,6 +52,20 @@ Or check them out in the 'data-mesh' namespace using a tool like [k9s](https://k
 
 ![K9S installed](./k9s-installed.png)
 
+# Creating new components
+
+We've created a widget template for creating new web components.
+
+There could be multiple templates, perhaps for different web frameworks or use-cases.
+
+The idea is that you can bootstrap a new component which knows:
+ * How to produce a web component
+ * How to package itself up and push an image (github actions to dockerhub)
+ * How to deploy itself (a kubernetes service declaration, as well as an 'installArgo' Makefile target)
+
+ You can read more and follow the instructions at our [kindservices/datamesh-widget-svelte.g8](https://kindservices.github.io/datamesh-widget-svelte.g8/) github repo
+
+
 # Cleaning up
 If you want to start over/get stuck, you can wipe-out your kubernetes applications by using:
 ```

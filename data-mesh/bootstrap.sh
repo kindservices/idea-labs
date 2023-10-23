@@ -19,6 +19,23 @@ END
     make install
     make login
     popd
+
+
+cat <<-END2
+
+  AAA                            RRRRRR                      dd         !!! 
+ AAAAA  rr rr   gggggg  oooo     RR   RR   eee    aa aa      dd yy   yy !!! 
+AA   AA rrr  r gg   gg oo  oo    RRRRRR  ee   e  aa aaa  dddddd yy   yy !!! 
+AAAAAAA rr     ggggggg oo  oo    RR  RR  eeeee  aa  aaa dd   dd  yyyyyy     
+AA   AA rr          gg  oooo     RR   RR  eeeee  aaa aa  dddddd      yy !!! 
+                ggggg                                            yyyyy      
+
+END2
+
+echo "==============================================================================="
+echo "argocd installed - run ./bootstrap.sh again to install the data-mesh components"
+echo "==============================================================================="
+
 }
 
 function clone() {
@@ -57,9 +74,5 @@ END
 }
 
 
-
 # conditional check to see if we have the data-mesh namespace
-(kubectl get namespace argocd && echo "argocd looks to be installed") || installKube
-
-
-clone && install
+(kubectl get namespace argocd && echo "argocd is installed - installing data-mesh components" && clone && install) || installKube
