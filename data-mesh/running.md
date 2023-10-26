@@ -4,46 +4,16 @@ You can run the data-mesh locally, or easily port it to your own kubenetes clust
 
 Note: Our repos use [Makefile](https://opensource.com/article/18/8/what-how-makefile)s as a means to build.
 
-## Running Locally
 
-Our data-mesh is based on kubenetes and ArgoCD. 
+# Installing the components
 
-To get started with those technologies, you can clone our [kindservices/local-kubernetes repo](https://github.com/kindservices/local-kubernetes):
-```bash
-git clone https://github.com/kindservices/local-kubernetes.git && cd local-kubernetes
-
-# install Kind (kubernetes in docker), k9s and argocd
-make install
-
-# port-forward argocd UI to localhost and login so the 'argocd' command works from your command line
-make login
-```
+You can use the [installK8S.sh](./installK8S.sh) to install the necessary kubernetes componenets (kubectl, kind and argocd).
 
 Once running, you should have any empty ArgoCD instance locally:
 
 ![Argo Empty](./argo-empty.png)
 
-
-# Installing the components
-
-You can use the [bootstrap.sh](./bootstrap.sh) script to clone and install each of the different services.
-
-It works because each individual component knows how to install itself using `argocd`:
-
-```bash
-# if you're using local kubernetes 
-git clone https://github.com/kindservices/local-kubernetes.git 
-pushd ./local-kubernetes
-# if already installed this should just have no effect
-make install
-make login
-popd
-
-git clone https://github.com/kindservices/datamesh-service-registry.git && ./datamesh-service-registry/install.sh
-git clone https://github.com/kindservices/datamesh-dashboard.git && ./datamesh-dashboard/install.sh
-git clone https://github.com/kindservices/datamesh-component-pinot.git && ./datamesh-component-pinot/install.sh
-```
-
+With argocd up and running, you can use [installDataMesh.sh](./installDataMesh.sh) to install the componenets.
 
 You should then be able to see the components installing in argo:
 ![Argo Installing](./argo-installing.png)
@@ -51,6 +21,7 @@ You should then be able to see the components installing in argo:
 Or check them out in the 'data-mesh' namespace using a tool like [k9s](https://k9scli.io/):
 
 ![K9S installed](./k9s-installed.png)
+
 
 # Creating new components
 
