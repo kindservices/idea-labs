@@ -18,6 +18,14 @@ END
   [ -d datamesh-dashboard ] || git clone https://github.com/kindservices/datamesh-dashboard.git
   [ -d datamesh-component-pinot ] || git clone https://github.com/kindservices/datamesh-component-pinot.git
   [ -d kind-test-widget ] || git clone https://github.com/kindservices/kind-test-widget.git
+  [ -d datamesh-widget-svelte.g8 ] || git clone https://github.com/kindservices/datamesh-widget-svelte.g8.git
+
+  echo 
+  echo "to create a new widget, use:"
+  echo "    sbt new kindservices/datamesh-widget-svelte.g8"
+  echo
+  echo "see https://github.com/kindservices/datamesh-widget-svelte.g8"
+  echo
 }
 
 function install() {
