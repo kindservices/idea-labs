@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+([ -d code ] || mkdir -p code) && pushd code
 
 cat <<-END
 
@@ -33,3 +33,4 @@ END2
 echo "==============================================================================="
 echo "argocd installed - run ./installDataMesh.sh again to install the data-mesh components"
 echo "==============================================================================="
+popd
