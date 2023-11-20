@@ -30,7 +30,13 @@ AA   AA rr          gg  oooo     RR   RR  eeeee  aaa aa  dddddd      yy !!!
 
 END2
 
-echo "==============================================================================="
-echo "argocd installed - run ./installDataMesh.sh again to install the data-mesh components"
-echo "==============================================================================="
+echo
+echo "  +------------------------------------------------------------------+"
+echo "  | argocd installed - run:                                          |"
+echo "  |                                                                  |"
+echo "  |    ./installDataMesh.sh                                          |"
+echo "  |                                                                  |"
+echo "  | to install the data-mesh components                              |"
+echo "  +------------------------------------------------------------------+"
+echo
 popd

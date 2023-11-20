@@ -38,11 +38,4 @@ The idea is that you can bootstrap a new component which knows:
 
 
 # Cleaning up
-If you want to start over/get stuck, you can wipe-out your kubernetes applications by using:
-```
-# delete all your data-mesh components
-kubectl delete namespace data-mesh
-
-# delete argocd itself
-kubectl delete namespace argocd
-```
+If you want to start over/get stuck, you can wipe-out your kubernetes applications by using the `uninstall.sh` script
