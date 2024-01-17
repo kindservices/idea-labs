@@ -17,8 +17,9 @@ Also, everyone participating is expected to adhere to Kind's [code of conduct](h
 
 We run our labs one-at-a-time with a clear deliverable/finish. If the community cares to keep it going or use the code for their own projects that's great. 
 
-  * > [data-mesh](./data-mesh/about.md) - our active lab using kubernetes, micro-services, real-time streaming analytics platform
-  * [language app](./language-app/about.md) - our next lab will be a mobile app written in dart and flutter
+  * [data-mesh](./data-mesh/about.md) - a distributed "data mesh" using kubernetes, micro-services, real-time streaming analytics platform
+  * [eyam-app](./eyam-app/about.md) - an app to help a local historic town organise services and events for visitors and residents
+  * [language app](./language-app/about.md) - a future lab building an app for personalised language learning
 
 
 # About the "idea-lab" name
